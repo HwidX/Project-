@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Nostalgia</title>
+    <link href="https://fonts.cdnfonts.com/css/vcr-osd-mono" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .box-contain {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .box-brrr {
+            margin: 10px;
+            flex: 0 0 30%;
+        }
+        .social-icon {
+            width: 24px;
+            height: 24px;
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body class="center-screen wallpaper">
+    <div class="click">
+        <h1>
+            <pre style="font-size:16px;margin-bottom:20px;">
+            Project Nostalgia 
+            </pre>
+            CLICK TO ENTER
+            <img src="fsociety.png" style="width:18px;position:absolute;right:10px;bottom:10px;">
+        </h1>
+    </div>
+    <pre>              
+     
+    ____               _    _   __           __        __      _      
+   / __ \_________    (_)  / | / /___  _____/ /_____ _/ /___ _(_)___ _
+  / /_/ / ___/ __ \  / /  /  |/ / __ \/ ___/ __/ __ `/ / __ `/ / __ `/
+ / ____/ /  / /_/ / / /  / /|  / /_/ (__  ) /_/ /_/ / / /_/ / / /_/ / 
+/_/   /_/   \____/_/ /  /_/ |_/\____/____/\__/\__,_/_/\__, /_/\__,_/  
+                /___/                                /____/           
+
+    </pre>
+
+    <div class="entered">
+        <div class="intial-container">
+            <div class="box-contain">
+                <div class="box-brrr">
+                    <img src="people/hwidx.jpg" class="pfp" alt="HwidX"/>
+                    <div class="profile-header">
+                        <h3><span style="color: #ff0000;">▶ </span>HwidX</h3>
+                    </div>
+                    <p>Lam Pentester<br>We met in 07.07.2023 17:48</p>
+                    <p style="font-size:10px; color: #666;">-- Connections --</p>
+                    <div class="connections">
+                        <a href="#" target="_blank" class="social-link">
+                            <span class="platform-name">BlackHat</span>
+                            <img src="socials/blackhat.png" class="social-icon" alt="BlackHat">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="box-brrr">
+                    <img src="people/artshikin.jpg" class="pfp" alt="Artshikin"/>
+                    <div class="profile-header">
+                        <h3><span style="color: #ff0000;">▶ </span>Artshikin</h3>
+                    </div>
+                    <p>Coder C#<br>We met in 07.07.2023 17:48</p>
+                    <p style="font-size:10px; color: #666;">-- Connections --</p>
+                    <div class="connections">
+                        <a href="#" target="_blank" class="social-link">
+                            <span class="platform-name">BlackHat</span>
+                            <img src="socials/blackhat.png" class="social-icon" alt="BlackHat">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="box-brrr">
+                    <img src="people/mys7ery.jpg" class="pfp" alt="Mys7ery"/>
+                    <div class="profile-header">
+                        <h3><span style="color: #ff0000;">▶ </span>Mys7ery</h3>
+                    </div>
+                    <p>Reverse Engineer<br>We met in 07.07.2023 17:48</p>
+                    <p style="font-size:10px; color: #666;">-- Connections --</p>
+                    <div class="connections">
+                        <a href="#" target="_blank" class="social-link">
+                            <span class="platform-name">BlackHat</span>
+                            <img src="socials/blackhat.png" class="social-icon" alt="BlackHat">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text" style="position:relative;">
+                <strong>Verified Infrastructure:</strong><br>
+                <div class="domains">
+                    <span>▪ Youtube</span><br>
+                    <span>▪ My7eryDevelopers</span><br>
+                    <span>▪ RootClan</span>
+                </div>
+                <div class="pgp-block">
+                    <code>Fsociety: 333 333 333</code>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <audio loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        document.querySelector('.click').addEventListener('click', function() {
+            this.style.opacity = 0;
+            setTimeout(() => {
+                this.style.display = 'none';
+                document.querySelector('audio').play();
+            }, 500);
+        });
+    </script>
+</body>
+</html>
